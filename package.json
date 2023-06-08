@@ -1,9 +1,9 @@
 {
-  "name": "blank_page__dev_kit",
-  "description": "",
+  "name": "EHC Tiger Köln e.V.",
+  "description": "Kölner Eishockeymannschaft seit 1996",
   "keywords": [],
   "version": "1.0.0",
-  "author": "",
+  "author": "Christian Kriegsheim – TheGrandHeavyBold",
   "license": "ISC",
   "main": ".eleventy.js",
   "scripts": {
