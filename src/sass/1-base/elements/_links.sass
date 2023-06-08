@@ -1,0 +1,34 @@
+a
+	text-decoration: none
+	transition: all ease .7s
+	text-decoration: none
+	cursor: pointer
+	position: relative
+	color: $mid_gray
+
+	&:visited
+		color: $gray
+
+
+	&:hover,
+	&:focus,
+	&:active
+		color: $gray
+
+	&:hover,
+	&:active
+		outline: 0
+
+a.link
+	position: relative
+	background: linear-gradient($mid_gray, $mid_gray) right bottom no-repeat
+	background-size: 100% 2px
+	transition: all .7s
+
+a.link:hover, a.link.orange:hover
+	background-size: 0% 2px
+
+a.link.orange
+	background: linear-gradient($orange, $orange) right bottom no-repeat
+	background-size: 100% 2px
+	transition: all .7s

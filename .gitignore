@@ -1,0 +1,9 @@
+config.codekit3
+node_modules
+dist
+.DS_Store
+.BridgeSort
+src/assets/images
+
+# Local Netlify folder
+.netlify

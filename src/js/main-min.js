@@ -1,0 +1,1 @@
+var html=document.querySelector("html");function is_touch_device(){return!!("ontouchstart"in window)}html.classList.remove("no-js"),html.classList.add("js"),is_touch_device()?html.classList.add("touch"):html.classList.remove("touch");
