@@ -6,6 +6,6 @@ module.exports = {
   authorTwitter: "@tghbstudio",
   metaImage: "",
   //buildTime: new Date(),
-  metaTitle: "EHC Tiger Köln",
+  metaTitle: "EHC Tiger Köln e.V.",
   metaDescription: "Kölner Eishockeymannschaft seit 1996"
 };
