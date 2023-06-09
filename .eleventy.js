@@ -5,10 +5,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js/main-min.js");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/style.css");
+  eleventyConfig.addPassthroughCopy("./src/satzung");
+  eleventyConfig.addPassthroughCopy("./src/DSGVO");
 
   // A responsive image helper using Netlify Large Media - image transformation
   eleventyConfig.addShortcode("picture", require("./src/js/picture.js"));
-  
+
   //©copyrights year output
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
