@@ -681,7 +681,7 @@ button.menu-toggle {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 40px;
   width: 100%;
 }
@@ -717,7 +717,7 @@ footer .footer__info ul.legal li:last-of-type, footer .footer__info ul.social li
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 .construction .copy {
